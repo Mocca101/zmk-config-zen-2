@@ -36,7 +36,7 @@
 
             // --------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   | 
+            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
             // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
@@ -95,7 +95,7 @@
 };
 
 &vbatt {
-    compatible = "zmk, battery-voltage-divider";
+    compatible = "zmk,battery-voltage-divider";
     io-channels = <&adc 2>;
     output-ohms =<2000000>;
     full-ohms = <(2000000 + 806000)>;
